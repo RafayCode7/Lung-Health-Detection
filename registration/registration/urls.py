@@ -24,7 +24,9 @@ urlpatterns = [
     path('login/',views.LoginPage,name='login'),
     path('home/',views.HomePage,name='home'),
     path('blog/',views.BlogPage,name='blog'),
-    path('UserGuide',views.UserGuidePage,name='userguide')
+    path('UserGuide/',views.UserGuidePage,name='userguide'),
+    path('Health-Form/',views.HealthForm,name='health-form')
+    
     
     
 ]

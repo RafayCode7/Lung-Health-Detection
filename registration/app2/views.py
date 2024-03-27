@@ -39,3 +39,5 @@ def BlogPage(request):
     return render(request,'blog-single.html')
 def UserGuidePage(request):
     return render(request,'user-guide.html')
+def HealthForm(request):
+    return render(request,'Health-form.html')
